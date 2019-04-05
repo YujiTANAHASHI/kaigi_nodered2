@@ -2,7 +2,7 @@ version: '3'
 services:
   apiserver:
     build: nodered
-    # image: tanahashi/google-cal-nodered2
+    image: tanahashi/kaigi_nodered2
     # container_name: mynodered
     # tty: true
     # volumes:
