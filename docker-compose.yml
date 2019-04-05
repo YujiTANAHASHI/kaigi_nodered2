@@ -1,0 +1,11 @@
+version: '3'
+services:
+  apiserver:
+    build: nodered
+    # image: tanahashi/google-cal-nodered2
+    # container_name: mynodered
+    # tty: true
+    # volumes:
+      # - ./nodered/node-red-data:/data
+    ports:
+      - "1880:1880"
